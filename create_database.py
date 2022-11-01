@@ -10,8 +10,8 @@ query = (''' CREATE TABLE IPTABLES_DATABASE
            PROTO TEXT,
            PORT INT,
            OPT TEXT,
-           SRC_IP INT,
-           DEST_IP INT);'''
+           SRC_IP TEXT,
+           DEST_IP TEXT);'''
         )
 conn.execute(query)
 conn.close()
